@@ -1,0 +1,5 @@
+#!/bin/sh
+export OGRE_INSTALL_DIR=${HOME}/Ogre/sdk
+export LD_RUN_PATH=${OGRE_INSTALL_DIR}/lib
+make clean
+make

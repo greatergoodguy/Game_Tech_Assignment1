@@ -1,0 +1,1 @@
+This program simulates a ball bouncing in a room. I created two light sources in the corner of the room and mapped the walls to a stone texture. The ball is covered with a rusty steel texture and bounces with perfect elasticity across the room.

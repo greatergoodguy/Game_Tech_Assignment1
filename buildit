@@ -1,0 +1,6 @@
+#!/bin/sh
+export OGRE_INSTALL_DIR=${HOME}/Ogre/sdk
+export PKG_CONFIG_PATH=${OGRE_INSTALL_DIR}/pkgconfig
+rm -rf autom4te.cache
+libtoolize --force --copy &&  aclocal &&  autoheader &&  automake --add-missing --force-missing --copy --foreign &&  autoconf
+./configure && ./makeit
